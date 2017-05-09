@@ -14,6 +14,8 @@
 		3C2937A41EC19A3F003F0F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2937A21EC19A3F003F0F19 /* LaunchScreen.storyboard */; };
 		3C2937AF1EC19A3F003F0F19 /* XYSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2937AE1EC19A3F003F0F19 /* XYSwiftTests.swift */; };
 		3C2937BA1EC19A3F003F0F19 /* XYSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2937B91EC19A3F003F0F19 /* XYSwiftUITests.swift */; };
+		3C2937C91EC1AB97003F0F19 /* XYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2937C71EC1AB97003F0F19 /* XYViewController.swift */; };
+		3C2937CA1EC1AB97003F0F19 /* XYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2937C81EC1AB97003F0F19 /* XYViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3C2937B51EC19A3F003F0F19 /* XYSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2937B91EC19A3F003F0F19 /* XYSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYSwiftUITests.swift; sourceTree = "<group>"; };
 		3C2937BB1EC19A3F003F0F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2937C71EC1AB97003F0F19 /* XYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYViewController.swift; sourceTree = "<group>"; };
+		3C2937C81EC1AB97003F0F19 /* XYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				3C2937991EC19A3F003F0F19 /* AppDelegate.swift */,
 				3C29379B1EC19A3F003F0F19 /* ViewController.swift */,
+				3C2937C71EC1AB97003F0F19 /* XYViewController.swift */,
+				3C2937C81EC1AB97003F0F19 /* XYViewController.xib */,
 				3C29379D1EC19A3F003F0F19 /* Main.storyboard */,
 				3C2937A01EC19A3F003F0F19 /* Assets.xcassets */,
 				3C2937A21EC19A3F003F0F19 /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2937A41EC19A3F003F0F19 /* LaunchScreen.storyboard in Resources */,
+				3C2937CA1EC1AB97003F0F19 /* XYViewController.xib in Resources */,
 				3C2937A11EC19A3F003F0F19 /* Assets.xcassets in Resources */,
 				3C29379F1EC19A3F003F0F19 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C29379C1EC19A3F003F0F19 /* ViewController.swift in Sources */,
+				3C2937C91EC1AB97003F0F19 /* XYViewController.swift in Sources */,
 				3C29379A1EC19A3F003F0F19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
